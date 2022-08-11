@@ -1,0 +1,14 @@
+package Day37_OOP_Override.Animal;
+
+public class Animal {
+    String name;
+    int age;
+
+    public void eat() {
+        System.out.println("Animal is eating!");
+    }
+
+    public void sleep() {
+        System.out.println("Animal is sleeping!");
+    }
+}
